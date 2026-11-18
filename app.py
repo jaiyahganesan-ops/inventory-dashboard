@@ -6,7 +6,7 @@ st.set_page_config(page_title="Live Inventory Dashboard", layout="wide")
 st.title("📦 Live Inventory Dashboard (Synced with Google Sheets)")
 
 # Replace this URL with your Published Google Sheet CSV link
-SHEET_URL = "YOUR_PUBLISHED_GOOGLE_SHEET_CSV_URL_HERE"
+SHEET_URL = https://docs.google.com/spreadsheets/d/e/2PACX-1vR63wkMgcNx0Aq8UZJUoFw26AWdhzonlSvXZF3-AWsxCdEMdrm_7Q9NaBNEhyCF6Q/pub?output=csvYOUR_PUBLISHED_GOOGLE_SHEET_CSV_URL_HERE
 
 @st.cache_data(ttl=60) # Refreshes and checks for new data every 60 seconds
 def load_data(url):
