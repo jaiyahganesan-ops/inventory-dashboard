@@ -8,7 +8,7 @@ st.title("📦 Predictive Inventory & Daily Burn-Rate Dashboard")
 st.markdown("Tracking inventory consumption velocity and remaining stock based on changing order quantities.")
 
 # Replace with your actual Published Google Sheet CSV link
-SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR63wkMgcNX0Aq8UZJUoFW26AWdhzonlSvXZF3-AWsxCdEMdrm_7Q9NaBNEhyCF6Q/pub?output=csv"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR63wkMgcNx0Aq8UZJUoFw26AWdhzonlSvXZF3-AWsxCdEMdrm_7Q9NaBNEhyCF6Q/pub?output=csv"
 
 @st.cache_data(ttl=60)
 def load_data(url):
